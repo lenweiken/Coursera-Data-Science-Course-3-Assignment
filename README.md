@@ -64,17 +64,12 @@ Preparer: Wei Ken Len
 - Load "activity_labels" data into R via *read.table* command (activity_labels.txt)  
 - **Data output** = "activity_labels"
 
-#### 7. Added activity labels to main data ("merged_extracted") : Course assignment #3 - Uses descriptive activity names to name the activities in the data set.  
+#### 8. Added activity labels to main data ("merged_extracted") : Course assignment #3 - Uses descriptive activity names to name the activities in the data set.  
 
 - **Data input** = "merged_extracted" & "activity_labels"
-- Merge both data using *merge* command by the activity code  
+- Merge both data using *merge* command by the activity id 
 - **Data output** = "merged_extracted_activityname"
 
-#### 8. Cleaned column names to make it descriptive : Course assignment #4 - Appropriately labels the data set with descriptive variable names.  
-
-- **Data input** = "merged_extracted_activityname"
-- Converted shorthand terminology in variable names into full description (e.g., freq = frequency ; t = time) via the *gsub* command  
-- **Data output** = "merged_extracted_activityname"
 
 #### 9. Create a table grouped by both activity and subejct  
 
@@ -92,4 +87,6 @@ Preparer: Wei Ken Len
 
 - **Data input** = "data_cleaned_final"
 - Create txt table file via the *write.table* command
-- **File output** = "data_cleaned_final.txt"
+- **File output** = "data_cleaned_final.txt"  
+
+#### Note: Course assignment 4 - Appropriately labels the data set with descriptive variable names is already performed by virtue of step #2 above (Variables are now named)
