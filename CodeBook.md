@@ -129,7 +129,7 @@ The following files are available for the train and test data. Their description
 
 ## 4. Description of the variables in the "data_cleaned_final" data frame
 
-These signals were used to estimate variables of the feature vector for each pattern  
+These signals were used to estimate variables of the feature vector for each pattern ()
 1. tBodyAcc-XYZ  
 2. tGravityAcc-XYZ  
 3. tBodyAccJerk-XYZ  
@@ -170,9 +170,9 @@ Column 3 = Activity ID
 
 Column 4:89 = Averaged measurement (by subject and activity) for each column. Each column represents a combination of:  
 (i) Measured "variables" (e.g.mean, standard deviation)  
-(ii) "feature vector" (e.g, TimeBodyAccelerometer)  
+(ii) "feature vector" (e.g, TimeBodyAccelerometer, TimeBodyGyroscope, FrequencyBodyAccelerometer, etc)  
 (iii) "axis signal" (e.g., X , Y or Z)  
-- Values lie between -1 and +1
+- Values are numerical
 
 Below is a summary of the columns within the data frame (data_cleaned_final)
  [1] "activity"                             "subject_id"                           "activity_id"                         
