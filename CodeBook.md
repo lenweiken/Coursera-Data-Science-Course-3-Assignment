@@ -174,7 +174,7 @@ Column 4:89 = Averaged measurement (by subject and activity) for each column. Ea
 (iii) "axis signal" (e.g., X , Y or Z)  
 - Values are numerical
 
-Below is a summary of the columns within the data frame (data_cleaned_final)
+Below is a summary of the columns within the data frame (data_cleaned_final)  
  [1] "activity"                             "subject_id"                           "activity_id"                         
  [4] "tBodyAcc.mean...X"                    "tBodyAcc.mean...Y"                    "tBodyAcc.mean...Z"                   
  [7] "tGravityAcc.mean...X"                 "tGravityAcc.mean...Y"                 "tGravityAcc.mean...Z"                
